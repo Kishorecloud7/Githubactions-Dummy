@@ -6,7 +6,7 @@
 
 <h1>🚀 What You Need</h1>
 
-A GitHub repository
+* A GitHub repository
 
 A Node.js application (simple Express app is fine)
 
