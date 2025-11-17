@@ -4,7 +4,7 @@
 
 Set up a CI/CD pipeline that automatically builds and deploys a Node.js application using GitHub Actions and Docker.
 
-🚀 What You Need
+<h1>🚀 What You Need</h1>
 
 A GitHub repository
 
@@ -14,13 +14,13 @@ Docker installed (for local testing)
 
 GitHub Actions (no setup required, built into GitHub)
 
-📁 Deliverable
+<h1>📁 Deliverable</h1>
 
 Your GitHub repo must contain:
 
 .github/workflows/deploy.yml
 
-🔧 Step-by-Step Implementation
+<h1>🔧 Step-by-Step Implementation</h1>
 1️⃣ Create Project Structure
 
 Inside your project folder:
@@ -126,7 +126,7 @@ jobs:
 
 
 
-🎯 Final Output
+<h1>🎯 Final Output</h1>
 
 Your repo should contain:
 
