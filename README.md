@@ -17,11 +17,11 @@ Set up a CI/CD pipeline that automatically <h4>Builds and Deploys a Node.js appl
 <h1>📁 Deliverable</h1>
 
 <h3>Your GitHub repo must contain:</h3>
+
 ```
 bash
 
 .github/workflows/deploy.yml
-
 ```
 
 <h1>🔧 Step-by-Step Implementation</h1>
