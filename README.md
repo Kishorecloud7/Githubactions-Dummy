@@ -2,7 +2,7 @@
 
 <h2>Objective:</h2>
 
-Set up a CI/CD pipeline that automatically <h4>builds and deploys a Node.js application</h4> using <h4>GitHub Actions and Docker.</h4>
+Set up a CI/CD pipeline that automatically <h4>Builds and Deploys a Node.js application</h4> using <h4>GitHub Actions and Docker.</h4>
 
 <h1>🚀 What You Need</h1>
 
