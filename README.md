@@ -124,18 +124,7 @@ jobs:
           path: |
             **/Dockerfile
 
-📦 (Optional but Recommended) Deployment Options
 
-You can extend this pipeline to deploy to:
-
-Platform	Deployment Method
-AWS EC2	SSH + Docker
-AWS ECS	Push to ECR + ECS update
-Azure Web App	Azure Login Action
-Render / Railway	GitHub Deploy Action
-Docker Hub	Push Docker image
-
-If you want, I can generate ready-made deployment steps for any platform.
 
 🎯 Final Output
 
