@@ -1,4 +1,4 @@
-<h1>✅ TASK 1: Automate Code Deployment Using CI/CD Pipeline (GitHub Actions) </h1>
+<h3><h1>✅ TASK 1: Automate Code Deployment Using CI/CD Pipeline (GitHub Actions) </h1>
 
 <h2>Objective:</h2>
 
@@ -136,4 +136,4 @@ package.json
 index.js
 
 
-Push code → GitHub Actions automatically runs CI/CD.
+Push code → GitHub Actions automatically runs CI/CD.</h3>
