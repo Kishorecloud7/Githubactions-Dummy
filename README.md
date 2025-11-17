@@ -38,6 +38,7 @@ Inside your project folder:
  │       └── deploy.yml
 ```
 <h2>2️⃣ Sample Node.js App</h2>
+
 ```
 index.js
 
@@ -52,10 +53,12 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`App running on port ${port}`);
 });
+```
 
 
 package.json
 
+```
 {
   "name": "ci-cd-demo",
   "version": "1.0.0",
@@ -66,6 +69,7 @@ package.json
     "express": "^4.18.2"
   }
 }
+
 ```
 
 <h2>3️⃣ Create Dockerfile</h2>
@@ -85,6 +89,7 @@ COPY . .
 EXPOSE 3000
 
 CMD ["npm", "start"]
+
 ```
 
 <h2>4️⃣ Create GitHub Actions Workflow</h2>
@@ -93,6 +98,7 @@ Create folder + file:
 ```
 bash
 .github/workflows/deploy.yml
+
 ```
 
 Paste this:
@@ -132,6 +138,7 @@ jobs:
           name: docker-image
           path: |
             **/Dockerfile
+
 ```
 
 
@@ -144,6 +151,7 @@ Your repo should contain:
 Dockerfile
 package.json
 index.js
+
 ```
 
 Push code → GitHub Actions automatically runs CI/CD.</h3>
